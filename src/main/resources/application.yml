@@ -1,0 +1,14 @@
+server:
+  port: 4005
+spring:
+  application:
+    name: Data_Jpa_Many_To_Many_Sample
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3306/manytomany
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
